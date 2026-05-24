@@ -6,6 +6,24 @@
 
 ---
 
+## 演示效果
+
+下面是按本仓库工作流跑通后,通过 Foxglove Studio 实时查看建图的实际效果:
+
+### Foxglove Studio 实时可视化
+
+![Foxglove 客户端界面](docs/images/foxglove-panel-view.png)
+
+> 笔记本通过 WebSocket 连接 Pi 上的 `foxglove_bridge`,左侧面板配置 Fixed Frame = `map`、跟踪 odom,右侧 3D 视图展示完整建图场景。
+
+### 建图细节(Lab 场景)
+
+![建图结果](docs/images/foxglove-mapping-result.png)
+
+> 室内 lab 录制 92 秒,回放后的 3D 占据栅格 + 点云。中央紫色方块是相机当前位置,黄/蓝轨迹是估计的运动路径。
+
+---
+
 ## 硬件与软件版本
 
 | 组件 | 版本 / 型号 |
