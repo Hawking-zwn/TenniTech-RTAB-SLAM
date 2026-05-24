@@ -71,6 +71,19 @@
 
 ---
 
+## 当前状态(2026-05-24)
+
+| 模块 | 状态 |
+|---|---|
+| 仓库初始化 + GitHub 同步 | ✅ 完成 |
+| Pi 端 record/replay/inspect 脚本 | ✅ 完成(待迁入 `scripts/`) |
+| RealSense + RTAB-Map 实机建图 | ✅ 验证通过(USB 2.0 降级模式) |
+| Foxglove Bridge 远程可视化 | ✅ 验证通过 |
+| `docs/01-hardware.md` ~ `docs/08-china-network.md` | ⏳ 撰写中 |
+| Nav2 集成 | ⏳ 未开始 |
+
+---
+
 ## 贡献
 
 欢迎组内同学:
