@@ -2,7 +2,7 @@
 
 > 树莓派 5 + Intel RealSense D435i 上的 RTAB-Map RGB-D 视觉 SLAM 完整部署手册
 
-本仓库记录了从**烧录操作系统**到**录制 bag 离线建图**的全流程,目标是让任何拿到同款硬件的同学都能照着 1:1 复刻。
+本仓库记录了从**烧录操作系统**到**录制 bag 离线建图**的全流程。
 
 ---
 
@@ -35,7 +35,7 @@
 | SLAM 算法 | RTAB-Map (ros-jazzy-rtabmap) |
 | 远程可视化 | Foxglove Studio + foxglove_bridge |
 
-> 为什么选这套:Pi 5 + Ubuntu 24.04 + Jazzy 是树莓派官方唯一的 Tier 1 组合,Pi 5 不支持 22.04 + Humble,踩坑过的人都知道。详见 [`docs/02-os-setup.md`](docs/02-os-setup.md)。
+> Pi 5 + Ubuntu 24.04 + Jazzy 是树莓派官方唯一的 Tier 1 组合,详见 [`docs/02-os-setup.md`](docs/02-os-setup.md)。
 
 ---
 
@@ -56,7 +56,7 @@
 
 ---
 
-## 快速开始(老司机版)
+## 快速开始
 
 > 假设你已经按 01–04 配好了系统,只想看脚本怎么用。
 
