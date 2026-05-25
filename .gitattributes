@@ -1,0 +1,8 @@
+# Force LF line endings for shell scripts so they remain executable on Linux
+# regardless of where they were edited.
+*.sh text eol=lf
+
+# Markdown / config — LF for cross-platform consistency
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
